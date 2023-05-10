@@ -27,6 +27,6 @@ def hello():
        print('Request for hello page received with no name or blank name -- redirecting')
        return redirect(url_for('index'))
 
-
+# my comment
 if __name__ == '__main__':
    app.run()
